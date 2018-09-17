@@ -1,0 +1,96 @@
+@import '../css/base.sass';
+
+.hero
+    background-color: $hero-bg;
+
+    width: 100vw;
+    overflow: hidden;
+
+    &-holder
+        &-text
+            padding-top: 30px;
+        &-images
+            position: relative;
+            height: 500px;
+            width: 100vw;
+            
+    
+    &-text
+        &-large
+            margin: 0;
+            color: #fff;
+            font-size: $font-mobile-xl;
+            text-align: center;
+
+        &-small
+            color: #fff;
+            margin: 15px 0 50px;
+            font-size: $font-mobile-md;
+            font-weight: 300;
+            text-align: center;
+
+    &-image
+        &-desk
+            background-color: #e0d5b1;
+            height: 150px;
+            width: 100vw;
+            position: absolute;
+            bottom: 0;
+            z-index: 1;
+
+        &-codingMonitor
+            width: 220px;
+            position: absolute;
+            bottom: 120px;
+            left: 0;
+            right: 0;
+            margin: auto;
+            z-index: 5;
+            animation-delay: 0.5s !important;
+            opacity: 0;
+
+        &-keyboard
+            width: 120px;
+            position: absolute;
+            bottom: 30px;
+            left: 25vw;
+            margin: auto;
+            z-index: 5;
+            display: none;
+
+        &-mouse
+            width: 50px;
+            position: absolute;
+            bottom: 65px;
+            right: 25vw;
+            z-index: 5;
+            display: none;
+
+        &-window
+            width: 230px;
+            position: absolute;
+            z-index: 0;
+            top: -5px;
+            right: -50px;
+
+        &-shelf
+            width: 100px;
+            top: 30px;
+            position: absolute;
+            z-index: 0;
+            left: 0px;
+        &-water
+            width: 80px;
+            bottom: 120px;
+            position: absolute;
+            z-index: 3;
+            right: 5px;
+
+.monitor-scale
+	animation: monitor-scale 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards;
+    
+.bookshelf-slide-in
+    animation: bookshelf-slide-in 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+.window-slide-in
+	animation: window-slide-in  0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;

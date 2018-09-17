@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:400,700");
+@-webkit-keyframes monitor-scale {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; } }
+
+@keyframes monitor-scale {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; } }
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+@-webkit-keyframes logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+@-webkit-keyframes bookshelf-slide-in {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0; }
+  100% {
+    transform: translateX(0);
+    opacity: 1; } }
+
+@keyframes bookshelf-slide-in {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0; }
+  100% {
+    transform: translateX(0);
+    opacity: 1; } }
+
+@-webkit-keyframes window-slide-in {
+  0% {
+    transform: translateX(1000px);
+    opacity: 0; }
+  100% {
+    transform: translateX(0);
+    opacity: 1; } }
+
+@keyframes window-slide-in {
+  0% {
+    transform: translateX(1000px);
+    opacity: 0; }
+  100% {
+    transform: translateX(0);
+    opacity: 1; } }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+p, li {
+  font-family: 'Roboto Condensed', sans-serif; }
+
+li {
+  list-style: none;
+  margin-left: 5px; }
+
+ul {
+  margin: 0 !important; }
+
+.portfolio-h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 0;
+  color: #333; }
+
+.contact-holder {
+  padding: 40px 20px 60px;
+  text-align: center; }
+  .contact-holder-links {
+    display: flex;
+    padding: 30px 40px;
+    justify-content: space-between; }
+
+.contact-text-sm {
+  text-align: center;
+  font-size: 1.2em;
+  color: #333;
+  line-height: 1.5; }
+
+.contact-button-download {
+  font-size: 1.2em;
+  width: 190px;
+  height: 50px;
+  margin: 20px auto;
+  background: #e06d6d;
+  border: 1px solid #e06d6d;
+  color: #fff;
+  cursor: pointer; }
+  .contact-button-download:hover {
+    background: #fff;
+    color: #e06d6d; }
+
+.contact-image-link {
+  height: 40px; }
