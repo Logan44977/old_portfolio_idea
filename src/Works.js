@@ -13,6 +13,20 @@ class Works extends Component{
                <Hero/>
 
                 <div className="works-holder">
+
+                     <div className="works-holder-crmsuite">
+                        <h2 className="works-text-projectName">Future CRMSuite Website</h2>
+                        
+                        <div className="works-holder-logoCRM">
+                            {/* TODO: get a better logo for this please */}
+                            <img className="works-image-crmsuite" alt="Lenny Logo" src="/img/works/projects/crmsuite/home.png"/>
+                        </div>
+                        
+                        <h3 className="works-text-tech">React.JS, HTML, LESS</h3>
+                        <p className="works-text-description">The last project I worked on at CRMSuite was a redesign of the company's website. I worked with a team of graphic artists to bring their mockups to life. </p>
+                            <button className="works-button-viewWork"> <a className="anchor crmsuiteBTN" href="https://dev-website.crmsuite.com" target="_blank" rel="noopener noreferrer" >View Website</a></button>
+                    </div>
+
                     <div className="works-holder-lenny">
                         <h2 className="works-text-projectName">Lenny Face Generator</h2>
                         
@@ -23,7 +37,7 @@ class Works extends Component{
                         
                         <h3 className="works-text-tech">C#, Xamarin, Android Development</h3>
                         <p className="works-text-description">For my Senior project, I decided to build a mobile application with Xamarin. This application has been published on the Google Play Store and has over 5,000 downloads.</p>
-                            <button className="works-button-viewWork"> <a className="anchor" href="https://play.google.com/store/apps/details?id=com.application.LennyFace" target="_blank" rel="noopener noreferrer" >View on Google Play</a></button>
+                            <button className="works-button-viewWork"> <a className="anchor lennyBTN" href="https://play.google.com/store/apps/details?id=com.application.LennyFace" target="_blank" rel="noopener noreferrer" >View on Google Play</a></button>
                     </div>
                 </div>
 

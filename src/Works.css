@@ -63,6 +63,22 @@
     transform: translateX(0);
     opacity: 1; } }
 
+@keyframes menu-slide-down {
+  0% {
+    transform: translateY(-100vh);
+    opacity: 0; }
+  100% {
+    transform: translateY(0);
+    opacity: 1; } }
+
+@keyframes menu-slide-up {
+  0% {
+    transform: translateY(0);
+    opacity: 1; }
+  100% {
+    transform: translateY(-100vh);
+    opacity: 0; } }
+
 body {
   font-family: 'Roboto', sans-serif; }
 
@@ -75,6 +91,9 @@ li {
 
 ul {
   margin: 0 !important; }
+
+a {
+  text-decoration: none !important; }
 
 .portfolio-h2 {
   text-align: center;
@@ -106,18 +125,31 @@ ul {
   background: #5765aa;
   text-align: center; }
 
+.works-holder-crmsuite {
+  padding: 20px 0 0;
+  background: #e06d6d;
+  text-align: center; }
+
 .works-holder-logo {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 170px; }
 
+.works-holder-logoCRM {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px; }
+
 .works-image-lennyLogo {
   width: 120px; }
 
+.works-image-crmsuite {
+  width: 280px; }
+
 .works-button-viewWork {
   background-color: #fff;
-  color: #5765aa;
   border: 1px solid #fff;
   text-align: center;
   margin: 20px auto 40px;
@@ -126,5 +158,10 @@ ul {
   height: 50px; }
 
 .anchor {
-  color: #5765aa !important;
   text-decoration: none !important; }
+
+.lennyBTN {
+  color: #5765aa !important; }
+
+.crmsuiteBTN {
+  color: #e06d6d !important; }
