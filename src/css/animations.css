@@ -77,3 +77,51 @@
   100% {
     transform: translateY(-100vh);
     opacity: 0; } }
+
+@keyframes show-wireframe {
+  0% {
+    height: 80px;
+    top: 30px; }
+  100% {
+    top: 110px;
+    height: 0; } }
+
+@keyframes show-menu-picture {
+  0% {
+    height: 30px;
+    top: 145px; }
+  100% {
+    height: 0px;
+    top: 175px; } }
+
+@keyframes show-android {
+  0% {
+    height: 40px;
+    top: 140px; }
+  100% {
+    height: 0;
+    top: 180px; } }
+
+@keyframes show-js-image {
+  0% {
+    height: 40px;
+    top: 30px; }
+  100% {
+    height: 0;
+    top: 70px; } }
+
+@keyframes show-arrow-image {
+  0% {
+    height: 40px;
+    top: 90px; }
+  100% {
+    height: 0;
+    top: 130px; } }
+
+@keyframes show-database-image {
+  0% {
+    height: 40px;
+    top: 145px; }
+  100% {
+    height: 0;
+    top: 185px; } }

@@ -79,6 +79,54 @@
     transform: translateY(-100vh);
     opacity: 0; } }
 
+@keyframes show-wireframe {
+  0% {
+    height: 80px;
+    top: 30px; }
+  100% {
+    top: 110px;
+    height: 0; } }
+
+@keyframes show-menu-picture {
+  0% {
+    height: 30px;
+    top: 145px; }
+  100% {
+    height: 0px;
+    top: 175px; } }
+
+@keyframes show-android {
+  0% {
+    height: 40px;
+    top: 140px; }
+  100% {
+    height: 0;
+    top: 180px; } }
+
+@keyframes show-js-image {
+  0% {
+    height: 40px;
+    top: 30px; }
+  100% {
+    height: 0;
+    top: 70px; } }
+
+@keyframes show-arrow-image {
+  0% {
+    height: 40px;
+    top: 90px; }
+  100% {
+    height: 0;
+    top: 130px; } }
+
+@keyframes show-database-image {
+  0% {
+    height: 40px;
+    top: 145px; }
+  100% {
+    height: 0;
+    top: 185px; } }
+
 body {
   font-family: 'Roboto', sans-serif; }
 
@@ -124,6 +172,71 @@ a {
   height: 60px;
   width: 100vw;
   background: #e0d5b1; }
+
+.worksHero-div-wireframe {
+  position: absolute;
+  top: 30px;
+  z-index: 5;
+  right: 150px;
+  width: 80px;
+  height: 80px;
+  background: white;
+  animation: show-wireframe 0.25s ease-in forwards; }
+
+.worksHero-div-menu {
+  position: absolute;
+  z-index: 5;
+  top: 145px;
+  right: 200px;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  animation: show-menu-picture 0.2s ease-in forwards;
+  animation-delay: 0.3s; }
+
+.worksHero-div-android {
+  position: absolute;
+  z-index: 5;
+  top: 140px;
+  right: 110px;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  animation: show-android 0.2s ease-in forwards;
+  animation-delay: 0.6s; }
+
+.worksHero-div-js {
+  position: absolute;
+  z-index: 5;
+  top: 30px;
+  right: 25px;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  animation: show-js-image 0.2s ease-in forwards;
+  animation-delay: 0.9s; }
+
+.worksHero-div-arrow {
+  position: absolute;
+  top: 90px;
+  z-index: 5;
+  right: 25px;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  animation: show-arrow-image 0.2s ease-in forwards;
+  animation-delay: 1.2s; }
+
+.worksHero-div-data {
+  position: absolute;
+  z-index: 5;
+  top: 145px;
+  right: 25px;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  animation: show-database-image 0.2s ease-in forwards;
+  animation-delay: 1.5s; }
 
 .worksHero-image-lamp {
   transform: scaleX(-1);

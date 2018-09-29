@@ -67,8 +67,8 @@
     transform: translateX(0);
     opacity: 1;
 
-// menu slide down
 
+// Slide the overlay down 
 @keyframes menu-slide-down
 
   0%
@@ -79,6 +79,8 @@
     transform: translateY(0);
     opacity: 1;
 
+  
+// Slide the overlay up 
 @keyframes menu-slide-up
 
   0%
@@ -88,3 +90,57 @@
   100%
     transform: translateY(-100vh);
     opacity: 0;
+
+// make the wireframe show
+@keyframes show-wireframe
+  0%
+    height: 80px;
+    top: 30px;
+  100%
+    top: 110px;
+    height: 0;
+
+// make the menu picture show
+@keyframes show-menu-picture
+  0%
+    height: 30px;
+    top: 145px;
+  100%
+    height: 0px;
+    top: 175px;
+
+// make the android picture show
+@keyframes show-android
+  0%
+    height: 40px;
+    top: 140px;
+  100%
+    height: 0;
+    top: 180px;
+
+// make the js file image show
+@keyframes show-js-image
+  0%
+    height: 40px;
+    top: 30px;
+  100%
+    height: 0;
+    top: 70px;
+
+// make the arrow image show
+@keyframes show-arrow-image
+  0%
+    height: 40px;
+    top: 90px;
+  100%
+    height: 0;
+    top: 130px;
+
+// make the database image show
+@keyframes show-database-image
+  0%
+    height: 40px;
+    top: 145px;
+  100%
+    height: 0;
+    top: 185px;
